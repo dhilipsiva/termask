@@ -15,7 +15,7 @@ Date created: 2016-11-20
 from setuptools import setup, find_packages
 from codecs import open
 
-__VERSION__ = '0.0.0'
+__VERSION__ = '0.1.0'
 
 setup(
     name='termask',
