@@ -8,7 +8,7 @@
 
 echo "Deploying to GemFury"
 bumpversion patch
-git push origin
+git push origin master:master
 git push origin --tags
 python setup.py sdist
 python setup.py bdist_wheel
