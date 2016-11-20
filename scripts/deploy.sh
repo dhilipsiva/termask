@@ -6,7 +6,8 @@
 # Distributed under terms of the MIT license.
 #
 
-echo "Deploying to GemFury"
+echo "Deploying to GitHub and PyPI"
+rm -rf dist/*
 bumpversion patch
 git push origin master:master
 git push origin --tags
