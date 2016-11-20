@@ -17,8 +17,6 @@ from codecs import open
 
 __VERSION__ = '0.0.0'
 
-reqs = read_reqs()
-
 setup(
     name='termask',
     version=__VERSION__,
