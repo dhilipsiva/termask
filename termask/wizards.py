@@ -23,6 +23,12 @@ class BaseWizard(object):
 
     def next(self, value):
         """
+        Get the previous question
+        """
+        raise NotImplementedError()
+
+    def previous(self, value):
+        """
         Get the next question based on value selected
         """
         raise NotImplementedError()
